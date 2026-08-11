@@ -14,3 +14,9 @@ dependencies = [
     "starlette<0.48",
     "matplotlib>=3.11.1",
 ]
+
+[tool.uv.sources]
+dataframe-lib = {
+    path = "lib",
+    editable = true,
+}
